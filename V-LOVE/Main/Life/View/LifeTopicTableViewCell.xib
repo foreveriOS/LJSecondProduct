@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LifeTopicTableViewCell"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="cell" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cell" rowHeight="68" id="KGk-i7-Jjw" customClass="LifeTopicTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="342" height="59.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="爱情碎碎念" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FRN-Nv-tyb">
+                        <rect key="frame" x="71" y="11.5" width="85" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="给你家亲爱的发个“为什么骗我”，看看他是个怎样的反应" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Z0-db-wpm">
+                        <rect key="frame" x="71" y="33" width="200" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="Ibk-LP-1M7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今日：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5U4-z5-Y6a">
+                        <rect key="frame" x="274" y="20" width="35" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="35" id="HP1-dy-r3j"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uHf-Y4-qXF">
+                        <rect key="frame" x="13" y="5" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="vsF-RC-jjQ"/>
+                            <constraint firstAttribute="width" constant="50" id="y7X-Y0-A8H"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ALP-zw-Fr6">
+                        <rect key="frame" x="307" y="20" width="35" height="20"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="11"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="3Z0-db-wpm" firstAttribute="leading" secondItem="FRN-Nv-tyb" secondAttribute="leading" id="Fcd-u6-XaR"/>
+                    <constraint firstItem="5U4-z5-Y6a" firstAttribute="firstBaseline" secondItem="ALP-zw-Fr6" secondAttribute="firstBaseline" id="IOD-kd-5Ng"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="5U4-z5-Y6a" secondAttribute="trailing" constant="25" id="JYu-AC-eRt"/>
+                    <constraint firstItem="5U4-z5-Y6a" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="12" id="KHZ-Wl-Iin"/>
+                    <constraint firstItem="ALP-zw-Fr6" firstAttribute="leading" secondItem="3Z0-db-wpm" secondAttribute="trailing" constant="36" id="KP2-FH-6Q1"/>
+                    <constraint firstItem="5U4-z5-Y6a" firstAttribute="centerY" secondItem="uHf-Y4-qXF" secondAttribute="centerY" id="MWo-iU-jtE"/>
+                    <constraint firstItem="uHf-Y4-qXF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="5" id="UoV-us-wCe"/>
+                    <constraint firstAttribute="trailing" secondItem="ALP-zw-Fr6" secondAttribute="trailing" id="Zph-3V-95I"/>
+                    <constraint firstItem="ALP-zw-Fr6" firstAttribute="centerY" secondItem="uHf-Y4-qXF" secondAttribute="centerY" id="iuX-w6-uW3"/>
+                    <constraint firstItem="3Z0-db-wpm" firstAttribute="leading" secondItem="uHf-Y4-qXF" secondAttribute="trailing" constant="8" symbolic="YES" id="ncz-QV-hBE"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="3Z0-db-wpm" secondAttribute="bottom" constant="-1.5" id="ndn-cG-PrH"/>
+                    <constraint firstItem="5U4-z5-Y6a" firstAttribute="leading" secondItem="3Z0-db-wpm" secondAttribute="trailing" constant="3" id="sIU-wg-ng4"/>
+                    <constraint firstItem="3Z0-db-wpm" firstAttribute="top" secondItem="FRN-Nv-tyb" secondAttribute="bottom" constant="1" id="sSn-58-jQg"/>
+                    <constraint firstItem="uHf-Y4-qXF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-3" id="v5a-F9-q25"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="LifeTopicCommentamount" destination="ALP-zw-Fr6" id="uGz-dp-TtC"/>
+                <outlet property="LifeTopicImageView" destination="uHf-Y4-qXF" id="sNF-b5-NbZ"/>
+                <outlet property="LifeTopicSubheadingLabel" destination="3Z0-db-wpm" id="RbF-GE-3oq"/>
+                <outlet property="LifeTopicTitleLabel" destination="FRN-Nv-tyb" id="pbE-a5-2Qi"/>
+            </connections>
+            <point key="canvasLocation" x="239.5" y="186"/>
+        </tableViewCell>
+    </objects>
+</document>

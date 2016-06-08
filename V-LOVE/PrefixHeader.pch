@@ -1,0 +1,44 @@
+//
+//  PrefixHeader.pch
+//  V-LOVE
+//
+//  Created by mac on 15/10/26.
+//  Copyright © 2015年 TheFirstDream. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <UIKit/UIKit.h>
+#import "UIViewExt.h"
+
+#define KScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define KScreenHeight [UIScreen mainScreen].bounds.size.height
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define kbgImageName @"kbgImageName"
+#define kImageName @"kImageName"
+#define Kgender @"Kgender"
+#define KColorName @"KColorName"
+#define KDayTime @"KDayTime"
+#define KBirthdayTime @"KBirthdayTime"
+#define KTogetherTime @"KTogetherTime"
+#define KhugTime @"KhugTime"
+#define KKissTime @"KKissTime"
+#define KmarryTime @"KmarryTime"
+#define kNameText @"kNameText"
+#define KcolorDefaults @"KcolorDefaults"
+#define kThemeColorDidChangeNotification @"kThemeColorDidChangeNotification"
+#define kThemeNameDidChangeNotification  @"kThemeNameDidChangeNotification"
+#define kThemeName @"kThemeName"
+
+#define SAVEIMAGES @"SAVEIMAGES"
+
+#define kEditDidFinished @"kEditDidFinished"
+#define EXISTIMAGE @"EXISTIMAGE"
+
+
+#endif /* PrefixHeader_pch */

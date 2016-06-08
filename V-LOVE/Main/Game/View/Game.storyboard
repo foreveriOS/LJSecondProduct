@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="NZm-tI-Oaw">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <scenes>
+        <!--Base Navigation Controller-->
+        <scene sceneID="JIM-Te-fDK">
+            <objects>
+                <navigationController id="NZm-tI-Oaw" customClass="BaseNavigationController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vLk-7j-qjC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="F2A-81-n6y" kind="relationship" relationship="rootViewController" id="naf-8E-HGE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="clM-sx-Rae" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="154" y="342"/>
+        </scene>
+        <!--情侣游戏-->
+        <scene sceneID="1Ai-MK-k9M">
+            <objects>
+                <viewController id="F2A-81-n6y" customClass="GameViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hSu-9v-SoJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="klw-Fl-Z4y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dX5-UZ-doi">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="情侣游戏" id="xgA-wT-ZfG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4ah-Xq-EfL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="866" y="342"/>
+        </scene>
+    </scenes>
+</document>
